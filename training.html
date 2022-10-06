@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- Name - Kanishk Kalra  |  Student ID - c0832722 -->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/training.css">
+    <title>L'eau Dishwashers</title>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="js/jquery.highlight.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a href="index.html"><img id="logo" src="images/logo.PNG" alt="L'eau Dishwashers Logo"></a>
+            
+            <nav>
+                <ul id="vecta_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="specials.html">Specials</a></li>
+                    <li><a href="training.html">Stock</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <table id="products">
+                <tr>
+                    <th>Name</th>
+                    <th>Stock Number</th>
+                    <th>Quantity Left</th>
+                    <th>Size</th>
+                    <th>Colour</th>
+                </tr>
+            </table>
+
+            <!-- <h3>On-line product training sessions</h3>
+            <table>
+                <caption>Product Training Schedule</caption>
+                <tr class="noHover">
+                    <th>Product/ Training</th>
+                    <th>Date (mm/dd/yy)</th>
+                    <th>Time</th>
+                    <th>Length</th>
+                    <th>Instructor</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Dishwasher Pro</td>
+                    <td>20/12/2021</td>
+                    <td>12:00 pm</td>
+                    <td>30 min</td>
+                    <td>Kathleen Buzek</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Dishwasher Pro Plus</td>
+                    <td>20/12/2021</td>
+                    <td>01:00 pm</td>
+                    <td>45 min</td>
+                    <td>Martin Canning</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Dishwasher Plus</td>
+                    <td>20/12/2021</td>
+                    <td>02:00 pm</td>
+                    <td>60 min</td>
+                    <td>Naveen Reddy</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Installing Tubes</td>
+                    <td>20/12/2021</td>
+                    <td>03:00 pm</td>
+                    <td>30 min</td>
+                    <td>Kathleen Buzek</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Installing Nozzels</td>
+                    <td>20/12/2021</td>
+                    <td>04:00 pm</td>
+                    <td>20 min</td>
+                    <td>Martin Canning</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Draining Pro Plus</td>
+                    <td>30/12/2021</td>
+                    <td>12:00 pm</td>
+                    <td>45 min</td>
+                    <td>Naveen Reddy</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Dishwasher 6</td>
+                    <td>03/01/2021</td>
+                    <td>11:00 am</td>
+                    <td>60 min</td>
+                    <td>Martin Canning</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Dishwasher 7 Plus</td>
+                    <td>04/01/2021</td>
+                    <td>10:00 am</td>
+                    <td>30 min</td>
+                    <td>Kathleen Buzek</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Dishwasher Pro Plus</td>
+                    <td>04/01/2021</td>
+                    <td>01:00 pm</td>
+                    <td>90 min</td>
+                    <td>Naveen Reddy</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Installation</td>
+                    <td>04/01/2021</td>
+                    <td>02:00 pm</td>
+                    <td>40 min</td>
+                    <td>Martin Canning</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Refilling Soap</td>
+                    <td>04/01/2021</td>
+                    <td>03:00 pm</td>
+                    <td>30 min</td>
+                    <td>Kathleen Buzek</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+                <tr>
+                    <td>Dishwasher Pro</td>
+                    <td>04/01/2021</td>
+                    <td>04:00 pm</td>
+                    <td>45 min</td>
+                    <td>Martin Canning</td>
+                    <td><a href="https://www.microsoft.com/en-ca/microsoft-teams/log-in">Session Link</a></td>
+                </tr>
+            </table> -->
+            
+
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2099 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mailto:info@leaudishwashers.com">Request Information</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Kanishk Kalra | C0832722</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

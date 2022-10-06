@@ -1,0 +1,202 @@
+/* Name - Kanishk Kalra  |  Student ID - c0832722 */
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+#logo {
+    float: left;
+    max-width: 15em;
+}
+
+/*Menu start*/
+nav {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 57%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 5px solid #ffffff;
+}
+
+nav ul {
+    padding: 0%;
+    display: inline-block;
+    width: max-content;
+    margin: 10px 0;
+}
+
+nav li {
+    list-style: none;
+    font-size: 150%;
+    width: 7.5vw;
+    display: inline;
+    float: left;
+    border: 0;
+    background-color: rgba(256,256,256,0);
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 1vw;
+    width: fit-content;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+}
+/*Menu end*/
+
+.pageHeading {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.pageHeading h1 {
+    padding: 0.3em 0 0 0 ;
+    margin: 0;
+    text-decoration: underline;
+    font-size: 300%;
+}
+
+.aboutUsContent {
+    text-align:center;
+    padding: 0 0.4em;
+    font-size: 150%;
+    margin-top: 25px;
+}
+
+.aboutUsContent img {
+    width: 70%;
+}
+
+
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 756px) {
+
+    
+
+    header {
+        text-align: center;
+    }
+
+    .aboutUsContent img {
+        width: 50%;
+        float: left;
+        margin-right: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 1000px) {
+
+    #container {
+        width: 80%;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+
+    #logo {
+        float: left;
+        max-width: 15em;
+    }
+
+    
+
+    header {
+        text-align: center;
+    }
+
+    .pageHeading h1 {
+        padding: 0.3em 0 0 0 ;
+        margin: 0;
+        text-decoration: underline;
+        font-size: 200%;
+    }
+
+    .aboutUsContent {
+        text-align: left;
+    }
+
+    .aboutUsContent img {
+        width: 30%;
+        float: left;
+        margin-right: 30px;
+    }
+
+    /* footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    } */
+
+    footer {
+        clear:both;
+    }
+
+    footer p {
+        padding-top: 25px;
+    }
+
+    .aboutUsContent p {
+        padding-top: 30px;
+    }
+
+  
+}
+
+.dropbtn {
+    font-size: 1em;
+    font-weight: bold;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    background-color: bisque;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: rgba(192,192,192,0.8);}
+
+

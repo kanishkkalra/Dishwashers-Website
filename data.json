@@ -1,0 +1,246 @@
+{"products":[
+    {
+        "name":"Dishwasher 1",
+        "stockNo":"00121",
+        "quantity":5,
+        "size":25,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 1 Pro",
+        "stockNo":"00122",
+        "quantity":12,
+        "size":28,
+        "colour":"Black"
+    },
+    {
+        "name":"Dishwasher 1 Pro Plus",
+        "stockNo":"00123",
+        "quantity":8,
+        "size":30,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 2 Pro",
+        "stockNo":"00131",
+        "quantity":15,
+        "size":23,
+        "colour":"Brown"
+    },
+    {
+        "name":"Dishwasher 2 Pro Plus",
+        "stockNo":"10134",
+        "quantity":23,
+        "size":56,
+        "colour":"Black"
+    },
+    {
+        "name":"Dishwasher 2",
+        "stockNo":"03453",
+        "quantity":26,
+        "size":56,
+        "colour":"Gold"
+    },
+    {
+        "name":"Dishwasher 3",
+        "stockNo":"09234",
+        "quantity":34,
+        "size":45,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 3 Pro",
+        "stockNo":"23453",
+        "quantity":4,
+        "size":37,
+        "colour":"Sky Blue"
+    },
+    {
+        "name":"Dishwasher 4 Pro Plus",
+        "stockNo":"34565",
+        "quantity":45,
+        "size":67,
+        "colour":"Jet Black"
+    },
+    {
+        "name":"Dishwasher 5 Pro Plus",
+        "stockNo":"23545",
+        "quantity":5,
+        "size":25,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 5 Plus",
+        "stockNo":"23453",
+        "quantity":13,
+        "size":34,
+        "colour":"Black"
+    },
+    {
+        "name":"Dishwasher 6 Edge",
+        "stockNo":"09375",
+        "quantity":0,
+        "size":28,
+        "colour":"Blue"
+    },
+    {
+        "name":"Dishwasher 6 +",
+        "stockNo":"03487",
+        "quantity":45,
+        "size":67,
+        "colour":"Black"
+    },
+    {
+        "name":"Dishwasher 1",
+        "stockNo":"00121",
+        "quantity":5,
+        "size":25,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 1 Pro",
+        "stockNo":"00122",
+        "quantity":12,
+        "size":28,
+        "colour":"Black"
+    },
+    {
+        "name":"Dishwasher 1 Pro Plus",
+        "stockNo":"00123",
+        "quantity":8,
+        "size":30,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 2 Pro",
+        "stockNo":"00131",
+        "quantity":15,
+        "size":23,
+        "colour":"Brown"
+    },
+    {
+        "name":"Dishwasher 2 Pro Plus",
+        "stockNo":"10134",
+        "quantity":23,
+        "size":56,
+        "colour":"Black"
+    },
+    {
+        "name":"Dishwasher 2",
+        "stockNo":"03453",
+        "quantity":26,
+        "size":56,
+        "colour":"Gold"
+    },
+    {
+        "name":"Dishwasher 3",
+        "stockNo":"09234",
+        "quantity":34,
+        "size":45,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 3 Pro",
+        "stockNo":"23453",
+        "quantity":4,
+        "size":37,
+        "colour":"Sky Blue"
+    },
+    {
+        "name":"Dishwasher 4 Pro Plus",
+        "stockNo":"34565",
+        "quantity":45,
+        "size":67,
+        "colour":"Jet Black"
+    },
+    {
+        "name":"Dishwasher 5 Pro Plus",
+        "stockNo":"23545",
+        "quantity":5,
+        "size":25,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 5 Plus",
+        "stockNo":"23453",
+        "quantity":13,
+        "size":34,
+        "colour":"Black"
+    },
+    {
+        "name":"Dishwasher 6 Edge",
+        "stockNo":"09375",
+        "quantity":0,
+        "size":28,
+        "colour":"Blue"
+    },
+    {
+        "name":"Dishwasher 6 +",
+        "stockNo":"03487",
+        "quantity":45,
+        "size":67,
+        "colour":"Black"
+    },{
+        "name":"Dishwasher 1",
+        "stockNo":"00121",
+        "quantity":5,
+        "size":25,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 1 Pro",
+        "stockNo":"00122",
+        "quantity":12,
+        "size":28,
+        "colour":"Black"
+    },
+    {
+        "name":"Dishwasher 1 Pro Plus",
+        "stockNo":"00123",
+        "quantity":8,
+        "size":30,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 2 Pro",
+        "stockNo":"98732",
+        "quantity":15,
+        "size":23,
+        "colour":"Brown"
+    },
+    {
+        "name":"Dishwasher 2 Pro Plus",
+        "stockNo":"76326",
+        "quantity":23,
+        "size":56,
+        "colour":"Black"
+    },
+    {
+        "name":"Dishwasher 2",
+        "stockNo":"98734",
+        "quantity":26,
+        "size":56,
+        "colour":"Gold"
+    },
+    {
+        "name":"Dishwasher 3",
+        "stockNo":"98734",
+        "quantity":34,
+        "size":45,
+        "colour":"Silver"
+    },
+    {
+        "name":"Dishwasher 3 Pro",
+        "stockNo":"98753",
+        "quantity":4,
+        "size":37,
+        "colour":"Sky Blue"
+    },
+    {
+        "name":"Dishwasher 4 Pro Plus",
+        "stockNo":"98723",
+        "quantity":45,
+        "size":67,
+        "colour":"Jet Black"
+    } 
+]}

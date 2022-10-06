@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Name - Kanishk Kalra  |  Student ID - c0832722 -->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/contact.css">
+    <title>L'eau Dishwashers</title>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="js/jquery.highlight.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a href="index.html"><img id="logo" src="images/logo.PNG" alt="L'eau Dishwashers Logo"></a>
+            
+            <nav>
+                <ul id="vecta_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="specials.html">Specials</a></li>
+                    <li><a href="training.html">Stock</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <form id="contactUs">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label for="fname">First Name: </label>
+                    <input type="text" id="fname" name="fname" required autofocus><br><br>
+                    <label for="lname">Last Name: </label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name="email" required ><br><br>
+                    <label for="number">Number: </label>
+                    <input type="number" id="number" name="number" required ><br><br>
+                    <label for="dob">Date of Birth: </label>
+                    <input type="date" id="dob" name="dob"><br><br>
+
+                    <label for="gender">Gender: </label>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Write your message here"></textarea><br><br>
+
+                    <input type="radio" id="receive" name="newletter" value="HTML">
+                    <label for="receive">I would like to subscribe to newsletter</label><br>
+                    <input type="radio" id="notReceive" name="newletter" value="CSS">
+                    <label for="notReceive">I would not like to subscribe to newsletter</label><br><br>
+
+                    <input type="checkbox" id="terms" name="terms">I Agree to terms and conditions
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
+            
+
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2099 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mailto:info@leaudishwashers.com">Request Information</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Kanishk Kalra | C0832722</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

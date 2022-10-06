@@ -1,0 +1,229 @@
+/* Name - Kanishk Kalra  |  Student ID - c0832722 */
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffe4c4;
+}
+
+#headingMain {
+    text-align: center;
+}
+
+main {
+    display: block;
+}
+
+
+#logo {
+    float: left;
+    max-width: 15em;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+/*Flickr Search*/
+.flickr {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.flickr h3 {
+    display: inline;
+}
+
+/*Carousel Start*/
+
+#image{
+    width: 350px;
+    height: 450px;
+}
+
+#left_button{
+    position: fixed;
+    left: 570px;
+    bottom: 100px;
+}
+
+#right_button {
+    position: fixed;
+    left: 950px;
+    bottom: 100px;
+}
+
+#display_panel {
+    position:fixed;
+    bottom: 50;
+    left: 620px;
+    width: 300px;
+    overflow: hidden;
+    float:left;
+    height: 125px;
+}
+
+#image_list{
+    position:relative;
+    left:0px;
+    width:900px;
+    list-style: none;
+}
+
+#image_list li {
+    float: left;
+    width: 100px;
+}
+
+#image_list li img {
+    width: 95px;
+}
+
+/*Carousel End*/
+
+/*Menu start*/
+nav {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 57%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 5px solid #ffffff;
+}
+
+nav ul {
+    padding: 0%;
+    display: inline-block;
+    width: max-content;
+    margin: 10px 0;
+}
+
+nav li {
+    list-style: none;
+    font-size: 150%;
+    width: 7.5vw;
+    display: inline;
+    float: left;
+    border: 0;
+    background-color: rgba(256,256,256,0);
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 1vw;
+    width: fit-content;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+}
+/*Menu end*/
+
+main {
+    margin-top: 4%;
+    font-family: Georgia, "Times New Roman", serif;
+    display: block;
+}
+
+.homeImage {
+    width: 70%;
+    margin-left: 50%;
+    display: inline;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.col {
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+
+.row {
+    clear:both;
+    display: table;
+}
+
+.col ul {
+    list-style-type: none;
+    margin-left: 15%;
+    margin-top: 30%;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.col ul h1 {
+    padding: 0;
+    margin:0;
+    font-size: 4em;
+    color: crimson;
+}
+
+.col ul h3 {
+    font-size: 1.5em;
+    margin:0;
+    margin-bottom: 0.5em;
+}
+
+/* ==========SPECIAL PAGE STYLES========== */
+.specialsBanner {
+    width: 100%;
+    border: 5px solid black;
+}
+
+video {
+    display: block;
+}
+
+.dropbtn {
+    font-size: 1em;
+    font-weight: bold;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    background-color: bisque;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: rgba(192,192,192,0.8);}
